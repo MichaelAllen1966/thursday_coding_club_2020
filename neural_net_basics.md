@@ -33,7 +33,7 @@ Some common neural network frameworks (these may be combined):
 
 * *Embedding*: Encodes/dimensions data so that similar examples are close in 'space' (most commonly used for words, so that words with similar meanings are close together in the embedded vector space). Examples: *word2vec* and *GloVe*.
 
-* *Translators*: For sequence-to-sequence tasks, such as language translation. These appear to be replacing many RNNs.
+* *Transformers*: For sequence-to-sequence tasks, such as language translation. These appear to be replacing many RNNs.
 
 * *Encoder/Decoder*: Encode (compress) data in fewer dimension, and decode from that compressed data.
 
@@ -156,6 +156,10 @@ A *Receiver operating characteristic (ROC) Curve* is one of the most common meth
 A summary of the common accuracy measures is shown below (from https://en.wikipedia.org/wiki/Receiver_operating_characteristic).
 
 ![](./images/accuracy.png)
+
+*Brier score* is mean squared error of actual outcome vs. probability of outcome for each possible outcome.
+
+
 
 ### Regression
 
